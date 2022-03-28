@@ -66,6 +66,29 @@ D_settle <- read_csv("~/Desktop/detroit_edited.csv")%>% mutate(closed_month = st
     ## )
     ## ℹ Use `spec()` for the full column specifications.
 
+### Answers to questions
+
+1.  We can readily measure the number of payouts related to police
+    misconduct settlements and the amount of those payouts. That’s
+    really about it without some more processing.
+
+2.  Mean payments for 5 out of the 9 years examined were under $100,000,
+    and all but one year (2019) had a mean payment under $200,000. The
+    median payment was $27,500 with 25% of payments less than $7,500 and
+    75% less than $60,000.
+
+3.  Among other things, we can’t measure the incomes, races, genders, or
+    other demographic factors of either the people who suffered police
+    misconduct or the police officers who committed it. Because the data
+    doesn’t seem to contain the actual location of the police
+    misconduct, we can’t use Census variables as proxies for these
+    demographics.
+
+4.  With some times, we could do a better job of analyzing the police
+    officers who committed the misconduct by parsing the case names as
+    well as the categories of police misconduct by parsing and
+    categorizing the summary allegations.
+
 ### EDA
 
 The first thing to note about the data is the missingness and lack of
